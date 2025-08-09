@@ -8,7 +8,7 @@ function App() {
   const my_router = createBrowserRouter([
     {
       path: "/",
-      element: <HomePage />,
+      element: <Layout ><HomePage /></Layout>,
     },
     {
       path: "/login",
