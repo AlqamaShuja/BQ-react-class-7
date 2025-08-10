@@ -1,0 +1,13 @@
+
+Step1: After Proj create run this on terminal
+npm install tailwindcss @tailwindcss/vite
+
+Step2: open vite.config.js import tailwindcss on top
+import tailwindcss from '@tailwindcss/vite'
+ 
+
+// Query Params (Optional) -> ?key=value 
+// Query Params (Optional) -> ?userId=10&name=Osama 
+// Params (Required) => /posts/:userId (defined)
+
+// http://localhost:5173/posts/5 (value pass)
